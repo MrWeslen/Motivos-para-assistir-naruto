@@ -1,0 +1,113 @@
+.player-ctrl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+  height: 100vh;
+  width: 100%;
+}
+i {
+  font-size: 50px;
+  color: white;
+  line-height: 50px;
+  padding: 13px;
+}
+h1 {
+  font-family: sans-serif;
+  padding-left: 20px;
+  color: #43bbb8 ;
+  font-weight: 300;
+}
+a {
+  background-color: #FF00BF;
+  border-radius: 60px;
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+/** 
+
+TESTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+
+*/
+
+body, html{
+  margin: 0;
+  font: 16px "lato", sans-serif;
+  height: 100%;
+  color: #777;
+}
+
+.conteudo{
+  color: #777;
+  background-color: #F5ECCE;
+  text-align: justify;
+  padding:50px 80px ;
+  opacity: 0.6;
+}
+
+.conteudo-titulo{
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}
+
+.conteudo-titulo span.titulo{
+  color: #fff;
+  background-color: #111;
+  padding: 18px;
+  font-size: 3em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+
+}
+
+h3{
+  text-transform: uppercase;
+  color: #111;
+  text-align: center;
+}
+
+p{
+  margin-bottom: 20px;
+}
+
+/**** efeito parallax */
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6{
+  position: relative;
+  height: 100%;
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.caixa1{
+  background-image: url(imagens/naruto1.jpg);
+}
+
+.caixa2{
+  background-image: url(imagens/naruto3.jpg);
+}
+.caixa3{
+  background-image: url(imagens/naruto5.jpg);
+}
+
+.caixa4{
+  background-image: url(imagens/naruto4.jpg);
+}
+.caixa5{
+  background-image: url(imagens/naruto2.jpg);
+}
+
+.caixa6{
+  background-image: url(imagens/fim6.jpg);
+}
